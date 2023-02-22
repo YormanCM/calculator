@@ -16,12 +16,30 @@
                 [(ngModel)] = "operandoB" name="operandoB">
             </div>
             <br>
-
+                <!-- Sumar -->
                 <button type="submit" class="btn btn-primary"
                 (click)='sumar()'> Sumar </button> 
                 <br>
                 <br> 
                 <!-- br: salto de línea -->
+                
+                <!-- Restar -->
+                <button type="submit" class="btn btn-secondary"
+                (click)='restar()'> Restar </button> 
+                <br>
+                <br> 
+
+                <!-- Multiplicar -->
+                <button type="submit" class="btn btn-dark"
+                (click)='multiplicar()'> Multiplicar </button> 
+                <br>
+                <br> 
+
+                <!-- Dividir -->
+                <button type="submit" class="btn btn-warning"
+                (click)='dividir()'> Dividir </button> 
+                <br>
+                <br> 
                 <p>Resultado: {{resultado}} </p>
                 
         </form>

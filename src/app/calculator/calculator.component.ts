@@ -15,4 +15,15 @@ export class CalculatorComponent {
       this.resultado = this.operandoA + this.operandoB;
     }
 
+    restar():void{
+      this.resultado = this.operandoA - this.operandoB;
+    }
+    
+    multiplicar():void{
+      this.resultado = this.operandoA * this.operandoB;
+    }
+
+    dividir():void{
+      this.resultado = this.operandoA / this.operandoB;
+    }
 }
